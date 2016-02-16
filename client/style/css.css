@@ -3,10 +3,7 @@
   margin-bottom: 10px;
   margin-top: 20px;
 } 
-.servicesImg1{
- /*  background:url(tovar1.jpg) center no-repeat;
- background-size:cover; */
-}/* =============================fonts============================== */
+/* =============================fonts============================== */
 .tovar{
   min-height: 600px;
   padding-bottom: 50px;
@@ -126,7 +123,7 @@ body, html {
     background-color:#FFFFFF;
 }
 nav ul a:hover {
-    color:#12A3D4;
+    color:#E94660;
 }
 .nav-wrapper .en, .ru{
     cursor: pointer;
@@ -139,6 +136,31 @@ nav ul a:hover {
     margin-top: 11px;
     margin-left: 4px;
 } */
+.navButton{
+  color: #E94660;
+  font-size: 20px;
+  margin: 0 auto;
+  font-weight: 600;
+  width: 250px;
+  border: 4px solid #E94660;
+  height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#navButton{
+    background: #E94660;
+    margin-left: 25px;
+    color: #ffffff;
+}
+#navButton:hover{
+    background: #E94660;
+}
+.navButton:hover{
+  color: #FFFFFF;
+  background: #E94660;
+  border: 4px solid #FFFFFF;
+
+}
 
 /* =============================nav============================== */
 /*==================================mainSlider==============================*/
@@ -153,6 +175,8 @@ nav ul a:hover {
     border-radius: 50px;
     cursor: pointer;
 }
+
+
 
 .sliderButton:hover{
   color: #333333;

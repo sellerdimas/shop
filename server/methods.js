@@ -67,7 +67,6 @@ Meteor.methods({
             number: value.number,
             date: date.toLocaleString("en-US", options),
         });
-    console.log(value.number);
     
   }
 });
