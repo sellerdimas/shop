@@ -1,0 +1,539 @@
+.servicesBlockImg{
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 20px;
+} 
+.servicesImg1{
+ /*  background:url(tovar1.jpg) center no-repeat;
+ background-size:cover; */
+}/* =============================fonts============================== */
+.tovar{
+  min-height: 600px;
+  padding-bottom: 50px;
+  
+
+}
+.tovarBlock{
+  cursor: pointer;
+}
+.tovarHeader{
+    font-size: 15px;
+    color: #333333;
+    line-height: 22px;
+    font-family: OpenSansBold;
+}
+.firma{
+    font-size: 14px;
+    margin: 2px 0;
+    color: #333333;
+}
+.price{
+    color: #999999;
+}
+.buyTovar{
+  float: right;
+  color: #64B5F6;
+  cursor: pointer;
+}
+.buyTovar:hover{
+  text-decoration: underline;
+}
+.akcia{
+  text-decoration: line-through;
+  margin-right: 5px;
+}
+@font-face {
+font-family: blisspro-light;
+src: local("blisspro-light"), url("fonts/blisspro-light.otf");
+}
+@font-face {
+font-family: ClinicaPro-Regular;
+src: local("ClinicaPro-Regular"), url("fonts/ClinicaPro-Regular.otf");
+}
+@font-face {
+font-family: FiraSansOT-Regular;
+src: local("FiraSansOT-Regular"), url("fonts/FiraSansOT-Regular.otf");
+}
+@font-face {
+font-family: FiraSansOT-Light;
+src: local("FiraSansOT-Light"), url("fonts/FiraSansOT-Light.otf");
+}
+@font-face {
+font-family: OpenSansRegular;
+src: local("OpenSansRegular"), url("fonts/OpenSansRegular.ttf");
+}
+@font-face {
+font-family: OpenSansBold;
+src: local("OpenSansBold"), url("fonts/OpenSansBold.ttf");
+}
+/* =============================fonts============================== */
+/* =============================class============================== */
+ a {
+    outline: none; /* Убираем границу вокруг ссылок  */
+   }
+   .contactBorder{
+    border-right: 1px solid #f3f3f3;
+   }
+.blueText{
+    color: #12A3D4;
+}
+#phone{
+  margin-left: 25px;
+}
+.number{                                                                                                                                                        
+  margin-left: 25%;                                                                                                                                                       
+}
+.textLogo{
+  font-family: OpenSansBold;
+}
+.textContentBlack{
+    font-family: FiraSansOT-Regular;
+    letter-spacing: -1px;
+    font-size: 1.45rem;
+    color: #414141;
+}
+.headerBlue{
+    color: #2196F3;
+    font-family: blisspro-light;
+    margin: 2.5rem 0px 1rem 0;
+    font-size: 3.125rem;
+}
+.subHeaderBlack{
+    font-family: ClinicaPro-Regular;
+    color: #414141;      
+    font-size: 1.5rem;
+    margin: 0 0 2rem 0;
+}
+/* =============================class============================== */
+body{
+    font-family: OpenSansRegular;                                                                                     
+    color: #414141;
+}
+body, html {
+    width: 100%;
+    height: 100%;
+}
+/* =============================nav============================== */
+@media only screen and (min-width : 992px) {
+    nav .brand-logo {
+        margin-left: 5%;
+    }
+}
+#nav-container{
+    height: 64px; /* задаем виситу в навигаци */
+}
+#nav{
+    background-color:#FFFFFF;
+}
+nav ul a:hover {
+    color:#12A3D4;
+}
+.nav-wrapper .en, .ru{
+    cursor: pointer;
+}
+.right a{
+    font-size: 14px;
+    color: #2a2a2a;
+}
+/* .right img{
+    margin-top: 11px;
+    margin-left: 4px;
+} */
+
+/* =============================nav============================== */
+/*==================================mainSlider==============================*/
+.sliderButton{
+  color: #FFFFFF;
+  font-size: 20px;
+  margin: 0 auto;
+  font-weight: 600;
+  width: 250px;
+  border: 4px solid #FFFFFF;
+  height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.sliderButton:hover{
+  color: #333333;
+
+  background: #FFFFFF;
+  border: 4px solid #FFFFFF;
+
+}
+.sliderButton p {
+  margin: 8px 0 0 0;
+}
+.mainSlider {
+    width:100%;
+    min-height:100%;
+    height: auto;
+    background:url(https://pp.vk.me/c627719/v627719486/4b0c1/zvLFrkBLTRk.jpg) center no-repeat;
+    background-size:cover;
+    padding-top: 120px;
+}
+.mainContentText1{
+    color: white;
+    margin-bottom: 0;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: ClinicaPro-Regular;
+}
+
+.mainContentText2{
+    margin-top: 0;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: ClinicaPro-Regular;
+}
+.mainContent h5{
+    color: white;
+    margin-top: 200px;
+}
+.MainArrowBlock{
+    position: absolute;
+    bottom: 1px;
+
+}
+.MainArrowBlock img{
+    cursor: pointer;
+}
+/*==================================mainSlider==============================*/
+.aboutUs{
+    min-height: 400px;
+    background-color: #F5F5F5;
+}
+.aboutUs button {
+    margin: 20px;
+}
+.man2{
+    margin-top: 50px;
+}
+/* ===================================info=============================== */
+.info{
+    min-height: 300px;
+    background-color: #12A3D4;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-family: ClinicaPro-Regular;
+}
+.info h5{
+    font-family: ClinicaPro-Regular;
+    color: #FFFFFF;
+}
+.info p{
+    font-size: 1.15rem;
+    color: #FFFFFF;
+}
+/* ===================================info=============================== */
+/* ===================================services=============================== */
+
+.servicesMain{
+    min-height: 600px;
+    max-width: 100%;
+    z-index: 0;
+    overflow: hidden;
+    padding-bottom: 70px;
+}
+.priceRed{
+  text-decoration:line-through;
+  color: #FF1744;
+
+}
+.priceGreen{
+  color: #00C853;
+
+}
+.card-panel{
+  margin: 0.75rem 0;
+  cursor: pointer;
+
+}
+
+.servText{
+  font-size: 1.125rem;
+
+}
+.servHeader{
+  font-size: 1.625rem;
+  margin: 0 0 0 0;
+}
+.servUnderHeader{
+  font-size: 1.4rem;
+    margin: 0 0 5px 0;
+}
+.valign-wrapper h5{
+    margin: 0 0 15px 0;
+}
+.valign-wrapper{
+  min-height: 120px;
+  overflow: hidden;
+}
+.card-panel img {
+    display: inline-block;
+  vertical-align: middle;
+
+}
+.card-panel:hover{
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.servicesHideLeft{
+    position: relative;
+    left: -150%;
+    text-align: left;
+
+}
+.servicesHideRight{
+    position: relative;
+    right: -150%;
+    text-align: right;
+
+}
+.servicesHideLeft2{
+    position: relative;
+    left: -150%;
+    text-align: left;
+}
+.servicesHideRight2{
+    position: relative;
+    right: -150%;
+    text-align: right;
+
+}
+
+/* ===================================contact=============================== */
+.contactBlock{
+    margin-top: 20px 0 40px 0;
+}
+.contactHead{
+    color: #2196F3;
+    margin: 20px 0 0 0;
+    font-size: 1.25rem;
+}
+.contactInformation{
+    min-height: 200px;
+    padding-top: 100px;
+}
+.contactInformation p{
+    font-size: 1.125rem;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.contactInformation img{
+    margin-right: 25px;
+    cursor: pointer;
+}
+#contactButton{
+    margin-left: 10px;
+    float: right;
+    margin-bottom: 40px;
+}
+.social img{
+    margin-left: 5px;
+}
+/* ===================================contact=============================== */
+.modal{
+    font-family: ClinicaPro-Regular;
+}
+.modal img{
+  float: left;
+}
+.modalPrice{
+  font-size: 24px;
+  color: #999999;
+}
+.modalPrice span{
+  text-decoration: line-through;
+  margin-left: 10px;
+}
+/* .modalPrice{
+  margin-bottom: 20px;
+}
+.modalBorder{
+  border-bottom: 1px solid grey;
+} */
+.modal p{
+    font-size: 19px;
+}
+.modalButt{
+  width: 170px;
+  height: 40px;
+  padding: 8px 10px 10px 10px;
+  border-radius: 5px;
+  background: #E6324B;
+  font-weight: 600;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 18px;
+}
+.modalButt:hover{
+  background: #E1223C;
+}
+.modalPhoto{
+  min-height: 75px;
+  margin-top: 10px;
+  display:inline-block;
+  cursor: pointer;
+
+}
+
+.map{
+  height: 220px;
+    background:url(World-Map3.png) center no-repeat;
+    background-size:cover;
+}
+.textContentBlack img{
+  margin-bottom: 12px;
+  margin-right: 4px;
+}
+.slide span{
+  font-size: 1.625rem;
+}
+/*=============================preLoader============================== */
+.loading-message {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 300;
+  font-family: FiraSansOT-Regular;
+  margin-top: 10px;
+}
+
+.sk-fading-circle {
+  margin: 40px auto;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.sk-fading-circle .sk-circle {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.sk-fading-circle .sk-circle:before {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  width: 15%;
+  height: 15%;
+  background-color: #FFFFFF;
+  border-radius: 100%;
+  -webkit-animation: sk-circleFadeDelay 1.2s infinite ease-in-out both;
+          animation: sk-circleFadeDelay 1.2s infinite ease-in-out both;
+}
+.sk-fading-circle .sk-circle2 {
+  -webkit-transform: rotate(30deg);
+      -ms-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
+.sk-fading-circle .sk-circle3 {
+  -webkit-transform: rotate(60deg);
+      -ms-transform: rotate(60deg);
+          transform: rotate(60deg);
+}
+.sk-fading-circle .sk-circle4 {
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+.sk-fading-circle .sk-circle5 {
+  -webkit-transform: rotate(120deg);
+      -ms-transform: rotate(120deg);
+          transform: rotate(120deg);
+}
+.sk-fading-circle .sk-circle6 {
+  -webkit-transform: rotate(150deg);
+      -ms-transform: rotate(150deg);
+          transform: rotate(150deg);
+}
+.sk-fading-circle .sk-circle7 {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+.sk-fading-circle .sk-circle8 {
+  -webkit-transform: rotate(210deg);
+      -ms-transform: rotate(210deg);
+          transform: rotate(210deg);
+}
+.sk-fading-circle .sk-circle9 {
+  -webkit-transform: rotate(240deg);
+      -ms-transform: rotate(240deg);
+          transform: rotate(240deg);
+}
+.sk-fading-circle .sk-circle10 {
+  -webkit-transform: rotate(270deg);
+      -ms-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+.sk-fading-circle .sk-circle11 {
+  -webkit-transform: rotate(300deg);
+      -ms-transform: rotate(300deg);
+          transform: rotate(300deg); 
+}
+.sk-fading-circle .sk-circle12 {
+  -webkit-transform: rotate(330deg);
+      -ms-transform: rotate(330deg);
+          transform: rotate(330deg); 
+}
+.sk-fading-circle .sk-circle2:before {
+  -webkit-animation-delay: -1.1s;
+          animation-delay: -1.1s; 
+}
+.sk-fading-circle .sk-circle3:before {
+  -webkit-animation-delay: -1s;
+          animation-delay: -1s; 
+}
+.sk-fading-circle .sk-circle4:before {
+  -webkit-animation-delay: -0.9s;
+          animation-delay: -0.9s; 
+}
+.sk-fading-circle .sk-circle5:before {
+  -webkit-animation-delay: -0.8s;
+          animation-delay: -0.8s; 
+}
+.sk-fading-circle .sk-circle6:before {
+  -webkit-animation-delay: -0.7s;
+          animation-delay: -0.7s; 
+}
+.sk-fading-circle .sk-circle7:before {
+  -webkit-animation-delay: -0.6s;
+          animation-delay: -0.6s; 
+}
+.sk-fading-circle .sk-circle8:before {
+  -webkit-animation-delay: -0.5s;
+          animation-delay: -0.5s; 
+}
+.sk-fading-circle .sk-circle9:before {
+  -webkit-animation-delay: -0.4s;
+          animation-delay: -0.4s;
+}
+.sk-fading-circle .sk-circle10:before {
+  -webkit-animation-delay: -0.3s;
+          animation-delay: -0.3s;
+}
+.sk-fading-circle .sk-circle11:before {
+  -webkit-animation-delay: -0.2s;
+          animation-delay: -0.2s;
+}
+.sk-fading-circle .sk-circle12:before {
+  -webkit-animation-delay: -0.1s;
+          animation-delay: -0.1s;
+}
+
+@-webkit-keyframes sk-circleFadeDelay {
+  0%, 39%, 100% { opacity: 0; }
+  40% { opacity: 1; }
+}
+
+@keyframes sk-circleFadeDelay {
+  0%, 39%, 100% { opacity: 0; }
+  40% { opacity: 1; } 
+}
+
+/* =============================preLoader============================== */
